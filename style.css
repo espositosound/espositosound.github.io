@@ -17,13 +17,14 @@ nav{
     min-width: 100%;
     min-height: 6vh;
     font-family: 'Poppins', sans-serif;
-    background-color:rgb(155, 42, 42);
+    background-color: #202020;
+    border-bottom: 3px solid #4c97aa;
     backdrop-filter: blur(10px);
     padding:0 50px;
     position:sticky;
     top: 0;
     z-index: 1;
-    
+    opacity: .98;
 }
 
 .logo{
@@ -68,11 +69,6 @@ nav{
  padding-bottom: 0px;
 }
 
-.aboutanchor{
-}
-
-.redesignanchor{
-}
 
 header{
     top: 0;
@@ -135,8 +131,7 @@ h2{
     font-size: 36px;
     color:rgb(209, 209, 209);
     margin-top: 25px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 20px;
 }
 
 h3{
@@ -147,6 +142,7 @@ h3{
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 1px;
+    
 }
 
 h4{
@@ -157,16 +153,24 @@ h4{
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 1px;
+    border-bottom: 3px solid #4c97aa;
+    background: linear-gradient(to left, #521aad, #42cfbc 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
 }
 
 h5{
     font-family: 'Poppins', sans-serif;
-    text-align: left;
-    font-size: 16px;
+    text-align: center;
+    font-size: 20px;
     color:rgb(209, 209, 209);
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 1px;
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
 }
 
 p{
@@ -180,11 +184,12 @@ p{
 
 ul{
     font-family: 'Poppins', sans-serif;
-    text-align: left;
-    font-size: 14px;
+    text-align: center;
+    font-size: 16px;
     color:rgb(238, 238, 238);
     list-style-type: none;
-    list-style-position: inside
+    list-style-position: inside;
+    line-height: normal;
 }
 
 .about{
@@ -197,6 +202,17 @@ ul{
     padding-bottom: 50px;
 }
 
+.About-me__body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-size: 16px;
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+    max-width: 90%;
+    padding-bottom: 50px;
+}
 
 .about img{
 margin: auto;
@@ -212,7 +228,6 @@ hr{
     display: block;
     border: rgb(107, 107, 107) solid 0.5px;
     border-radius: 13px;
-
 }
 
 .video {
@@ -237,7 +252,7 @@ hr{
     color:rgb(238, 238, 238);
     list-style-type: none;
     list-style-position: inside;
-    background-color:rgb(155, 42, 42);
+    background-size: 400%;
     min-height: 15px;
 }
 
@@ -276,33 +291,8 @@ a:hover {
     z-index: -1;
     object-fit: cover;
 }
-form {
-    background-color: rgba(66, 66, 66, .8);
-    display:flex;
-    flex-direction: column;
-    padding: 50px;
-    width: 75%;
-    max-width: 600px;
-    border-radius: 10px;
-    float: none;
-    margin-left: 34%;
-    margin-bottom: 50px;
-    backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 30px 0px #1f1f1f;
-}
 
-form input, form textarea{
-    display: flex;
-    border: 0;
-    margin: 10px 0;
-    padding: 20px;
-    outline: none;
-    background: white;
-    font-size: 10px;
-    width: 350px;
-
-}
 
 .hrtag{
-    background-color:rgb(155, 42, 42);
+    background-color: #7a39b6;
 }
