@@ -18,13 +18,13 @@ nav {
     min-height: 4vh;
     font-family: 'Poppins', sans-serif;
     background-color: #202020;
-    border-bottom: 3px solid #ebebeb;
+    border-bottom: 3px solid #353535;
     backdrop-filter: blur(10px);
     padding: 0 50px;
     position: sticky;
     top: 0;
     z-index: 1;
-    opacity: .98;
+    opacity: .96;
 }
 
 .logo{
@@ -256,6 +256,21 @@ hr{
     border: rgb(107, 107, 107) solid 0.5px;
     border-radius: 13px;
 }
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds some space between the videos */
+    justify-content: center; /* Center the videos horizontally */
+}
+
+.video-container iframe {
+    flex: 1;
+    min-width: 300px;
+    max-width: 675px; 
+}
+
+
 
 .video {
     display: flex;
