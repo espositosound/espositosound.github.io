@@ -33,14 +33,7 @@ nav {
     padding:0;
 }
 
-    .logo h6 {
-        font-size: 14px;
-        color: rgb(209, 209, 209);
-        margin: 0;
-        padding: 0;
-        margin-top: 1px;
-        margin-bottom: 10px;
-    }
+    
 
 .logo p {
         font-size: 14px;
@@ -190,6 +183,16 @@ h5{
     background-size: 100% 2px;
     background-repeat: repeat-x;
 }
+
+h6 {
+    font-size: 14px;
+    color: rgb(209, 209, 209);
+    margin: 0;
+    padding: 0;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
 
 
 
