@@ -9,6 +9,7 @@ html{
     height: 100%;
 }
 
+
 .video-container iframe {
     flex: 1;
     min-width: 300px;
@@ -47,6 +48,56 @@ html{
                 0 4px 6px rgba(0, 0, 0, 0.4); /* Enhances shadow on hover */
 }
 
+.projects-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:rgb(238, 238, 238);
+    height: 100%; /* Ensures the container has enough height */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;  /* Optional: if you want to center any text inside the container */
+}
+
+.projects-entry {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:rgb(238, 238, 238);
+    flex-direction: row;
+    align-items: center; /* Aligns image and text vertically */
+    gap: 20px;
+    max-width: 1200px; /* Adds space between image and text */
+    width: 100%;
+    display: flex;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column; /* Stack the text vertically */
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: left;
+    width: auto;
+    margin-left: 20px; /* Align text to the left */
+}
+
+
+.text-block h3 {
+    font-size: 20px;
+    justify-content: flex-start;
+}
+
+
+
+.text-block p {
+    font-size: 16px;
+    line-height: 1.5;
+    justify-content: flex-start;
+}
+
+
+
+
 .product-preview {
     display: flex;
     justify-content: center; /* Centers the content horizontally */
@@ -54,6 +105,8 @@ html{
     height: 100%; /* Ensures the container has enough height */
     text-align: center; /* Optional: if you want to center any text inside the container */
 }
+
+
 
 .product-preview img {
     max-width: 100%; /* Makes sure the image doesn't overflow the container */
@@ -71,6 +124,12 @@ html{
 .librariesanchor {
    
     margin-bottom: 50px; /* Adjust this value as needed */
+}
+
+.projectsanchor {
+   
+    margin-bottom: 50px; /* Adjust this value as needed */
+    
 }
 
 nav {
@@ -114,7 +173,7 @@ nav {
     justify-content: space-around;
     color:ghostwhite;
     text-transform: uppercase;
-    width: 400px;
+    width: 600px;
     position: sticky;
 }
 
@@ -160,6 +219,7 @@ body {
     margin: auto;
     min-height: 100%;
     background: #161616;
+    min-height: 100vh;
 }
 
 main{
@@ -168,6 +228,7 @@ main{
     display: flex;
     flex-direction: column;
     margin: auto;
+    
     
 }
 
@@ -187,7 +248,6 @@ footer{
 padding-top: 25px;
 padding-bottom: 25px;
 }
-
 
 h1{
     font-family: 'Poppins', sans-serif;
@@ -229,10 +289,7 @@ h4 {
     margin-bottom: 10px;
     letter-spacing: 1px;
     border-bottom: 3px solid  #ebebeb;
-    background: linear-gradient(to left, #521aad, #42cfbc 100%);
-    background-position: 0 100%;
-    background-size: 100% 2px;
-    background-repeat: repeat-x;
+    
 }
 
 h5{
@@ -334,10 +391,6 @@ hr{
     max-width: 675px; 
 }
 
-
-
-
-
 .video {
     display: flex;
     flex-direction: row;
@@ -375,31 +428,6 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
-
-#backgroundvideo{
-    content: '';
-    position: absolute;
-    background-size: cover;
-    overflow: hidden;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-    opacity: 0.5;
-    background-attachment: fixed;
-}
-
-#backgroundvideo video{
-    position: fixed;
-    z-index: -1;
-    object-fit: cover;
-}
-
 
 .hrtag{
     background-color: #7a39b6;
