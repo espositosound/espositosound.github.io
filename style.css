@@ -141,13 +141,13 @@ nav {
     min-height: 4vh;
     font-family: 'Poppins', sans-serif;
     background-color: #202020;
-    border-bottom: 3px solid #353535;
+    border-bottom: 1px solid #313131;
     backdrop-filter: blur(10px);
-    padding: 0 50px;
+    padding: 0 25px;
     position: sticky;
     top: 0;
     z-index: 1;
-    opacity: .96;
+    opacity: .91;
 }
 
 .logo{
@@ -253,7 +253,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
     color:rgb(209, 209, 209);
     margin-top: 20px;
     margin-bottom: 30px;
@@ -350,7 +350,7 @@ ul{
     padding-bottom: 50px;
 }
 
-.About-me__body{
+/* .About-me__body{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 40px;
@@ -360,6 +360,48 @@ ul{
     text-align: left;
     max-width: 90%;
     padding-bottom: 50px;
+} */
+
+.About-me__body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    font-size: 16px;
+    margin: auto;
+    justify-content: center;
+    max-width: 90%;
+    padding-bottom: 50px;
+    line-height: 1.6; 
+}
+
+.About-me__body h2 {
+    font-size: 36px;
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+}
+
+.About-me__body h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.About-me__body h5 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.About-me__body ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.About-me__body li {
+
+    font-size: 18px;
+    margin-bottom: 10px;
+    
 }
 
 .about img{
