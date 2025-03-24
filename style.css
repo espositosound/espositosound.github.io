@@ -92,9 +92,16 @@ html{
 .text-block p {
     font-size: 16px;
     line-height: 1.5;
-    justify-content: flex-start;
+    text-align: left; /* Ensure text aligns to the left */
+    margin: 0; /* Remove default margins for better control */
+    padding: 0; /* Remove default padding for better control */
 }
 
+.text-block li {
+    list-style-type: none; /* Removes the bullet point */
+    margin: 0; /* Optional: Removes default margin */
+    padding: 0; /* Optional: Removes default padding */
+}
 
 
 
